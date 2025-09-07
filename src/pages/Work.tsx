@@ -32,8 +32,8 @@ import taskifyProfile from "../assets/taskifyImages/taskifyProfile.png";
 import taskifyLightMode from "../assets/taskifyImages/taskifyLightMode.png";
 
 // codeSprintImages
-import codeSprintLanding from "../assets/codesprintImages/codesprintLanding.png";
-import codeSprintDashboard from "../assets/codesprintImages/codesprintDashboard.png";
+import codeSprintLanding from "../assets/codesprintImages/codeSprintLanding.png";
+import codeSprintDashboard from "../assets/codesprintImages/codeSprintDashboard.png";
 import codeSprintProjects from "../assets/codesprintImages/codeSprintProjectCreation.png";
 import codeSprintBidding from "../assets/codesprintImages/codeSprintBidding.png";
 import codeSprintCalendar from "../assets/codesprintImages/codeSprintCalendar.png";
