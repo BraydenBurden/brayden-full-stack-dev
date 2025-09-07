@@ -31,7 +31,15 @@ import taskifyDetailedTaskView from "../assets/taskifyImages/taskifyDetailedTask
 import taskifyProfile from "../assets/taskifyImages/taskifyProfile.png";
 import taskifyLightMode from "../assets/taskifyImages/taskifyLightMode.png";
 
-// Images are imported elsewhere
+// codeSprintImages
+import codeSprintLanding from "../assets/codesprintImages/codesprintLanding.png";
+import codeSprintDashboard from "../assets/codesprintImages/codesprintDashboard.png";
+import codeSprintProjects from "../assets/codesprintImages/codeSprintProjectCreation.png";
+import codeSprintBidding from "../assets/codesprintImages/codeSprintBidding.png";
+import codeSprintCalendar from "../assets/codesprintImages/codeSprintCalendar.png";
+import codeSprintMessages from "../assets/codesprintImages/codeSprintMessaging.png";
+import codeSprintProfile from "../assets/codesprintImages/codeSprintProfile.png";
+
 const workList = [
   {
     id: 1,
@@ -106,6 +114,27 @@ const workList = [
       { image: taskifyLightMode, imageText: "Light mode interface" },
     ],
     infoLink: "https://github.com/BraydenBurden/taskify",
+  },
+  {
+    id: 4,
+    workImages: "codeSprintImage", // Main project image
+    workDesc:
+      "CodeSprint is a developer marketplace platform where clients post work they need completed, and developers bid to take on these projects.",
+    header: "CodeSprint",
+    detailedDesc: [
+      "CodeSprint is a full-stack application designed to connect clients with developers efficiently. The frontend is built with ReactJS, utilizing Material UI and Ant Design components for a responsive and intuitive interface. The backend is powered by Node.js and Express, with Sequelize and MySQL handling data management. Real-time features are implemented with Socket.io, and file storage is managed via Cloudinary. Additional functionalities include authentication with JSON Web Tokens, scheduling tasks with node-cron, and automated notifications using Nodemailer.",
+      "The project demonstrates expertise in building scalable, real-time applications with a modern tech stack, emphasizing both user experience and robust backend functionality.",
+    ],
+    images: [
+      { image: codeSprintLanding, imageText: "Landing page" },
+      { image: codeSprintDashboard, imageText: "Client dashboard view" },
+      { image: codeSprintProjects, imageText: "Project's interface" },
+      { image: codeSprintBidding, imageText: "Developer bidding system" },
+      { image: codeSprintProfile, imageText: "User profile section" },
+      { image: codeSprintCalendar, imageText: "Calendar interface" },
+      { image: codeSprintMessages, imageText: "Messaging interface" },
+    ],
+    infoLink: "https://github.com/BraydenBurden/CodeSprint-development",
   },
   // {
   //   id: 4,
