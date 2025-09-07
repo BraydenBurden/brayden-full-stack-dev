@@ -1,6 +1,5 @@
 import { Box, Typography, Stack, Paper, Link, useTheme } from "@mui/material";
 import ImageCarousel from "../components/ImageCarousel";
-import { GithubOutlined } from "@ant-design/icons";
 
 import fixdenImage from "../assets/fixden.png";
 import sidekickImage from "../assets/sidekick.png";
